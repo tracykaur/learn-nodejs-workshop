@@ -1,0 +1,74 @@
+html {
+    background-color: pink;
+  }
+
+  body {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px;
+    font-family: sans-serif;
+  }
+
+  h1#sitetitle {
+    color: #ff69b4;
+  }
+
+  h2.recipepart {
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    border-left: 10px solid grey;
+    padding: 10px 0px 8px 10px;
+  }
+
+  h2.ingredients {
+    border-left-color: #00ced1;
+  }
+  h2.method {
+    border-left-color: #00bfff;
+  }
+  h2.variations {
+    border-left-color: #3cb371;
+  }
+
+  a {
+    color: #2f4f4f;
+    text-decoration: none;
+    background-color: #ffe4e1;
+    padding: 2px 4px;
+    border-bottom: 2px dashed #ffb6c1;
+  }
+
+  a:visited {
+    color: #778899;
+  }
+  
+  a:focus {
+    border: 3px dashed #ffb6c1;
+  }
+  
+  
+  a:hover {
+    border-bottom: 3px solid #ffb6c1;
+  }
+  
+  a:active {
+    color: purple;
+    border: 3px solid #ffb6c1;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  div.container {
+    padding: 0px 20px;
+  }
+
+  span.temp {
+    font-weight: bold;
+    border: 2px solid red;
+    background-color: pink;
+    border-radius: 15px;
+    padding: 5px 8px 4px 8px;
+  }
